@@ -1,4 +1,5 @@
-class Student {
+
+oclass Student {
 
     private int studentId;
     private String name;
@@ -51,16 +52,17 @@ public class question1 {
 
     public static void main(String[] args) {
 
-              201, "hothan", 18, "Computer Science", 3.5);
+        Student student1 = new Student(
+                201, "hothan ", 19, "Computer Science", 5.5);
 
         Student student2 = new Student(
-                202, "ahmed", 20, "Information Technology", 2.8);
+                202, "hamdi ", 20, "Information Technology", 2.8)
 
         Student student3 = new Student(
-                203, "abdulahi", 22, "publicadministration", 3.9);
+                203, "ahmed ", 22, "publicadministration", 3.9);
 
         Student student4 = new Student(
-                204, "maryama", 22, "Computer Science", 1.7);
+                204, "ayuub", 21, "Computer Science", 1.7);
 
         student1.displayInfo();
         student2.displayInfo();
